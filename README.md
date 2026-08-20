@@ -1,86 +1,90 @@
-# SE Mod Manager
+# Менеджер по модулям SE
 
-> **English** | [Русский](#русский)
+> **английский** | [Русский](#русский)
 
-SE Mod Manager is a desktop mod manager and conflict scanner for **Space Engineers**. It is designed for large mod lists and provides a clearer, faster way to manage world mods than editing configuration files manually.
+SE Mod Manager — это менеджер модджер рабчѵгѾ сстола и скёнёр кофликт длѻя **Космические инженеры**. Он предназначен для больших списков модов и обеспечивает более понятный и быстрый способ управления модами мира, чем редактирование файло
 
-Select a world, review its installed mods, load Steam Workshop metadata, build reusable collections, change the load order with drag and drop, and save an updated `Sandbox_config.sbc` with an automatic backup.
+При интернет-менеджере SE Mod Manager онновлет выбраныыыыыѹ мир Мененджер по модулю SESandbox_config.sbc` с вход для резервнейм копированем.
 
-## Features
+![01.jng(02.джнг)
 
-- Automatically discovers Space Engineers worlds.
-- Reads the mod list from the selected world.
-- Separate lists for world mods and available mods.
-- Drag and drop mods between lists.
-- Reorder the world load order with drag and drop.
-- Steam Workshop cards with titles, preview images, and links.
-- Detects locally installed or subscribed Workshop mods.
-- Imports a mod, collection, or public profile using a Workshop URL or ID.
-- Creates, renames, edits, saves, and applies custom mod collections.
-- Card and compact list layouts.
-- Recent-action history and notifications.
-- Saves the world configuration with an automatic backup.
-- Scans `.sbc` and `.sbm` files for duplicate `DefinitionId` entries.
-- Shows conflict severity, load order, likely override winner, and suggested action.
-- English and Russian interface.
+## Особенности
 
-## Installation
+- Автоматически открывает миры космических инженеров.
+- Считывает список модов из выбранного мира.
+- Отдельные списки мировых модов и доступных модов.
+- Перетаскивайте моды между списками.
+- Измените порядок загрузки мира с помощью перетаскивания.
+- Мастерская Пар с загочки, предварительными изображениями и ссылками.
+- Обнаруживает локально установленные или подписанные моды Мастерская.
+- Импортирует мод, коллекцию или публичный профиль, используя URL-адрес или идентификатор Семинар.
+- Создает, переименовывает, редактирует, сохраняет и применяет пользовательские коллекции модов.
+- Макеты карточек и компактных списков.
+- История последних действий и уведомления.
+- Сохраняет мировую конфигурацию с помощью автоматического резервного копирования.
+- Сканирует `.сбк` и `.сбм` файлы для дублирования `ОпределениеId` записи.
+- Показывает серьезность конфликта, порядок загрузки, вероятного победителя переопределения и предлагаемые действия.
+- Англо-русский интерфейс.
 
-1. Download the latest `SEModManagerSetup.exe` from **Releases**.
-2. Run the installer.
-3. Start SE Mod Manager from the Start menu or desktop shortcut.
+## Установка
 
-For the portable version, extract the archive and run `SeModManagerWpf.exe`.
+1. Скачать последнюю версию `SEModManagerSetup.exe` от **Релизы**.
+2. Запустите установщик.
+3. Запустите SE Mod Manager из меню "Пуск" или ярлыка рабочего стола.
 
-## Quick start
+Для портативной версии извлеките архив и запустите `SeModManagerWpf.exe`.
 
-1. Close Space Engineers before changing a world.
-2. Select a world from the list on the left.
-3. Load Steam cards if titles and previews have not appeared automatically.
-4. Drag mods between the available-mod and world-mod lists.
-5. Reorder world mods by dragging them up or down.
-6. Click **Save world config**.
-7. Run the conflict scanner and review any reported overrides.
+## Быстрый старт
 
-## Worlds and configuration files
+1. Закройте Космические инженеры, прежде чем изменить мир.
+2. Выберите мир из списка слева.
+3. Загрузите карты Пар, если заголовки и предварительные просмотры не появились автоматически.
+4. Перетаскивание моды междю списки доступные-мод и мир-мод.
+5. Измените порядок мировых модов, перетаскивая их вверх или вниз.
+6. Нажмите **Сохранить конфигурацию мира**.
+7. Запустите сканер конфликтов и просмотрите все зарегистрированные переопределения.
 
-The application searches the standard save directory automatically:
+![]02.джнг01.джнг
 
-```text
-%APPDATA%\SpaceEngineers\Saves
+## Миры и файлы конфигурации
+
+Приложение автоматически выполняет поиск в стандартном каталоге сохранения:
+
+```текст
+%APPDATA%\Космичѵские инженеры\Сохраняет
+Релизы
+
 ```
 
-If a world is missing, refresh the world list or use **Open config** to select its `Sandbox_config.sbc` manually.
+При интернет-менеджер SE Mod Manager онновляет выбраныѹ мир `Sandbox_config.sbc` и сначала создает резервную копию. Дэржите Космические инженеры закрытыми во врреѼя сѾхранения, чтобы игра не пезаписала файл.
 
-When saving, SE Mod Manager updates the selected world's `Sandbox_config.sbc` and creates a backup first. Keep Space Engineers closed while saving so the game does not overwrite the file.
+. Он предназначен для больших списков модов и обеспечивает более понятный и быстрый способ управления модами мира, чем редактирование файло
 
-## Steam Workshop integration
+ Менеджер по модулям SE
 
-SE Mod Manager can load:
+- заголовки модов и изображения предварительного просмотра;
+- Ссылки на семинары;
+- локальные пути модов, если они доступны;
+- локально установленные или подписанные элементы семинара;
+- моды и коллекции, импортированные по URL или идентификатору.
 
-- mod titles and preview images;
-- Workshop links;
-- local mod paths when available;
-- locally installed or subscribed Workshop items;
-- mods and collections imported by URL or ID.
+Пар не раскрывает информацию о частных подписках публично. По возможности приложение использует вместо этого локальные данные Пар. Импорт публичного профиля или коллекции зависит от информации, которую Пар предоставляет без входа в систему.
 
-Steam does not expose private subscriptions publicly. When possible, the application uses local Steam data instead. Public profile or collection imports depend on the information Steam makes available without signing in.
+## Коллекции
 
-## Collections
+Коллекции — это повторно используемые списки модов, хранящиеся отдельно от отдельных миров. Вы можете создать коллекцию из текущего мира, отредактировать ее содержимое, переименовать ее и применить к другому выбранному миру.
 
-Collections are reusable mod lists stored separately from individual worlds. You can create a collection from the current world, edit its contents, rename it, and apply it to another selected world.
+Коллекции хранятся локально в:
 
-Collections are stored locally in:
-
-```text
-%APPDATA%\SEModManagerWpf\profiles
+```текст
+%APPDATA%\SEModManagerWpf\профили
 ```
 
-## Conflict scanner
+**Релизы
 
-The scanner searches mod `.sbc` and `.sbm` files for duplicate `DefinitionId` entries. It shows which mods touch the same definition, their positions in the current load order, and which mod is likely to override the others.
+Сканер ищет мод `.сбк` и `.сбм` файлы для дублирования `ОпределениеId` записи. Он показывает, какие моды касаются одного и того же определения, их позиции в текущем порядке загрузки и какой мод, скорее всего, переопреде
 
-A reported conflict is **not automatically an error**. It may be an intentional compatibility patch, add-on, or rebalance. Treat scanner results as diagnostic hints and test important changes in-game.
+ Быстрый старт Установка## Англо-русский интерфейс.. Это может быть намеренное исправление совместимости, дополнение или перебалансировка. Относитесь к результатам сканирования как к диагностическим подсказкам и проверяйте важные изменения в игре.
 
 See [Conflict Guide](CONFLICTS_GUIDE.md) for a detailed explanation.
 
