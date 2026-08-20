@@ -32,7 +32,7 @@ Select a world, view its installed mods, load Steam Workshop information, create
 2. Run the installer.
 3. Start SE Mod Manager from the Start menu or desktop shortcut.
 
-For the portable version, extract the archive and run `SeModManagerWpf.exe`.
+
 
 ## Quick start
 
@@ -148,7 +148,7 @@ SE Mod Manager — настольный менеджер модов и скан�
 2. Запустите установщик.
 3. Откройте SE Mod Manager через меню «Пуск» или ярлык на рабочем столе.
 
-Для portable-версии распакуйте архив и запустите `SeModManagerWpf.exe`.
+
 
 ## Быстрый старт
 
